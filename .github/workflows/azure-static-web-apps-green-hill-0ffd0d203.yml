@@ -35,4 +35,4 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GREEN_HILL_0FFD0D203 }}
           action: "upload"
           app_location: "dist/invites/browser"
-          output_location: ""
+          output_location: "."
